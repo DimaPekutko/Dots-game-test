@@ -1,0 +1,67 @@
+body {
+    color: yellow;
+    font-family: 'Alata', sans-serif;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+#main_wrap {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center
+}
+.ui {
+    background-color: rgba(0, 7, 28, 0.5);
+    position: absolute;
+}
+#game_score_wrap {
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 5px;
+}
+#game_score_span {
+    color: red;
+    font-size: 20px;
+}
+#menu_wrap {
+    text-align: center;
+    border-radius: 10px;
+    width: 30%;
+    margin-top: 30vh;
+}
+#menu_score {
+    color: red;
+}
+#menu_score_span {
+    color: pink;
+}
+#menu_wrap p {
+    color: whitesmoke;
+}
+#game_canvas {
+    background: rgb(21, 21, 49);
+    width: 100%;
+    height: 100vh;
+}
+#play_button {
+    font-size: 20px;
+    font-weight: bold;
+    background: lime;
+    border: 3px solid red;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    width: 180px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#play_button:hover {
+    background-color: yellow;
+    transition:background-color 0.4s;
+}
+#play_button:focus {
+    background-color: red;
+}
